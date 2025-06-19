@@ -1,9 +1,11 @@
+import AppRoutes from "./routes";
+
 function App() {
-	return (
-		<>
-			<div>DevBills</div>
-		</>
-	);
+  return (
+    <div>
+      <AppRoutes />
+    </div>
+  );
 }
 
 export default App;
